@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "" : { "model": "timeshattered:block/menger_sponge" }
+  }
+}

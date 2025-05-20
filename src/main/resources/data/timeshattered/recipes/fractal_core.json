@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "timeshattered:fractal_noise"
+    },
+    "O": {
+      "item": "timeshattered:fractal_piece"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "OGO",
+    "GSG",
+    "OGO"
+  ],
+  "result": {
+    "item": "timeshattered:fractal_core"
+  }
+}

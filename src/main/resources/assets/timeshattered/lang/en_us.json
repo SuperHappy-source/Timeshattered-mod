@@ -1,0 +1,25 @@
+{
+  "item.timeshattered.fractal_core": "Fractal core",
+  "item.timeshattered.fractal_piece": "Fractal piece",
+  "item.timeshattered.fractal_noise": "Fractal noise",
+  "item.timeshattered.test_weapon": "Dusk Epitath",
+  "item.timeshattered.ender_scythe": "Ender's Scythe",
+  "item.timeshattered.fractal_foot": "Fractal Rabbit's foot",
+  "item.timeshattered.fractal_netherite": "Fractal Netherite ingot",
+  "item.timeshattered.fractal_rose": "Fractal Rose",
+
+  "block.timeshattered.block_of_nightmare_matter": "Block of Nightmare matter",
+
+
+  "itemGroup.timeshattered.fractal": "Fractals Tab",
+  "itemGroup.timeshattered.nightmare": "Nightmare Tab",
+
+
+  "death.attack.unstability": "%1$s was removed from this reality.",
+  "death.attack.unstability.player": "%1$s was unmade by %2$s",
+  "death.attack.fractal_colapse": "A %1$s singularity has formed.",
+  "death.attack.fractal_colapse.player": "%2$s caused %1$s to Collapse",
+  "death.attack.fractal_skill_issue.player": "%1$s tried to escape %2$s by cheating death. and failed.",
+  "death.attack.fractal_skill_issue": "%1$s tried to cheat death."
+
+}

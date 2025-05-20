@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "timeshattered:fractal_core"
+    },
+    "O": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "OGO",
+    "GSG",
+    "OGO"
+  ],
+  "result": {
+    "item": "origins:orb_of_origin"
+  }
+}
