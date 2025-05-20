@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"super:lou/boyant"
+	],
+	"icon": "minecraft:lily_of_the_valley",
+	"order": 20,
+	"impact": 3,
+	"name": "High Mage.",
+	"description": "Childish naivety"
+}
