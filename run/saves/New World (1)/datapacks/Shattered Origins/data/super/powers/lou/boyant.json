@@ -1,7 +1,5 @@
 {
 	"name": "Boyant",
-	"description": "Freedom of Movement"
-
-
-	//UNFINISHED. WORKING MORE ON THIS LATER
+	"description": "Freedom of Movement",
+	"type": "origins:simple"
 }
