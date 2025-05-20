@@ -6,4 +6,5 @@ The mod is the easiest to see into as its the first things you see. however if y
 
 Contributors:
 Super - Head Coder
+
 Giffbiggums - Head Sprite artist.
