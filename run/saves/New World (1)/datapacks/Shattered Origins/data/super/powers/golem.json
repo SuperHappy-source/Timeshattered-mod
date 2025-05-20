@@ -1,0 +1,195 @@
+{
+  "name": "Body without organs",
+  "description": "While you can, you don't need to eat food, instead you use iron or netherite to repair your body. You don't drown since you don't have lungs.",
+  "type": "origins:multiple",
+  "food": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+  "flower": {
+    "type": "origins:disable_regen"
+  },
+  "saturation": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:saturation",
+        "amplifier": 6,
+        "duration": 99999,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+      },
+      "execute_chosen_when_orb": true,
+      "entity_action_respawned": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:saturation",
+          "duration": 999999,
+          "amplifier": 6,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        }
+      }
+    }
+  },
+  "clear": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:clear_effect",
+      "effect": "minecraft:saturation"
+    }
+  },
+  "repair_less": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:heal",
+          "amount": 4
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.iron_golem.repair"
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:happy_villager"
+          },
+          "count": 16,
+          "speed": 0.2,
+          "force": true,
+          "spread": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          }
+        }
+      ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 0
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:iron_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:health",
+          "comparison": "<",
+          "compare_to": 24
+        },
+        {
+          "type": "origins:resource",
+          "resource": "super:netherite_bar",
+          "comparison": "<",
+          "compare_to": 50
+        }
+      ]
+    }
+  },
+  "repair_more": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:heal",
+          "amount": 4
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.iron_golem.repair"
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:happy_villager"
+          },
+          "count": 16,
+          "speed": 0.2,
+          "force": true,
+          "spread": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          }
+        }
+      ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 0
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": true
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:iron_ingot"
+            }
+          }
+        },
+        {
+          "type": "origins:health",
+          "comparison": "<",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:resource",
+          "resource": "super:netherite_bar",
+          "comparison": ">",
+          "compare_to": 50
+        }
+      ]
+    }
+  }
+}

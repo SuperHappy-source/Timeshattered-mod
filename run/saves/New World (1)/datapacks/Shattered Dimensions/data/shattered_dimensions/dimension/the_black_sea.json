@@ -1,0 +1,29 @@
+{
+  "type": "shattered_dimensions:black_sea_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "shattered_dimensions:black_sea",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 11,
+          "block": "minecraft:air"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:black_concrete"
+        },
+        {
+          "height": 173,
+          "block": "minecraft:water"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  }
+}

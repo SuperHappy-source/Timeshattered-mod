@@ -1,0 +1,17 @@
+{
+  "type": "shattered_dimensions:memories_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "shattered_dimensions:memories",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 16,
+          "block": "timeshattered:block_of_nightmare_matter"
+        }
+      ]
+    }
+  }
+}

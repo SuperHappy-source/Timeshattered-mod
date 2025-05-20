@@ -1,0 +1,19 @@
+{
+	"name": "Arms of steel",
+	"description": "Your fists deal an extra 2 damage, but this boost doesn't go to weapons.",
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": 2,
+		"name": "Increased damage"
+	},
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:empty"
+		}
+	}
+}

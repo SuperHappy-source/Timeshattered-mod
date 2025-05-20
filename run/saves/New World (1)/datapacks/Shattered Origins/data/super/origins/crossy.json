@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"super:claws",
+		"super:nature",
+		"super:wither",
+		"super:fireproof",
+		"super:blaze",
+		"super:firewings",
+		"origins:carnivore"
+
+	],
+	"icon": "minecraft:blaze_powder",
+	"order": 9,
+	"impact": 2,
+	"name": "The one born of death.",
+	"description": "Born of your demise you find yourself reborn, the flames of fate call for you."
+}

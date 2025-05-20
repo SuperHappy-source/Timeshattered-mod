@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"super:steelarms",
+		"super:sturdybody",
+		"super:golem",
+		"super:ironfeet",
+		"super:hearty",
+		"super:netherite",
+		"super:netheriteupgrade"
+
+	],
+	"icon": "minecraft:iron_ingot",
+	"order": 19,
+	"impact": 3,
+	"name": "Body of Steel",
+	"description": "feels weird..."
+}

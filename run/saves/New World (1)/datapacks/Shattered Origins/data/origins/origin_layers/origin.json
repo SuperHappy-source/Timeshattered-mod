@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "origins": [
+    "super:super",
+    "super:rose",
+    "super:crossy",
+    "super:bee",
+    "super:ender",
+    "super:test",
+    "super:astro"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "performVersionCheck": true,
+  "origins": {
+    "origins:enderian": {
+      "enabled": true,
+      "origins:throw_ender_pearl": true,
+      "origins:water_vulnerability": true,
+      "origins:pumpkin_hate": true,
+      "origins:extra_reach": true,
+      "origins:ender_particles": true,
+      "origins:damage_from_potions": true
+    },
+    "origins:arachnid": {
+      "enabled": true,
+      "origins:climbing": true,
+      "origins:master_of_webs": true,
+      "origins:carnivore": true,
+      "origins:fragile": true,
+      "origins:arthropod": true
+    },
+    "origins:human": {
+      "enabled": true
+    },
+    "origins:blazeborn": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:nether_spawn": true,
+      "origins:burning_wrath": true,
+      "origins:hotblooded": true,
+      "origins:water_vulnerability": true,
+      "origins:flame_particles": true,
+      "origins:damage_from_snowballs": true,
+      "origins:damage_from_potions": true
+    },
+    "origins:avian": {
+      "enabled": true,
+      "origins:slow_falling": true,
+      "origins:fresh_air": true,
+      "origins:like_air": true,
+      "origins:tailwind": true,
+      "origins:lay_eggs": true,
+      "origins:vegetarian": true
+    },
+    "origins:feline": {
+      "enabled": true,
+      "origins:fall_immunity": true,
+      "origins:sprint_jump": true,
+      "origins:velvet_paws": true,
+      "origins:nine_lives": true,
+      "origins:weak_arms": true,
+      "origins:scare_creepers": true,
+      "origins:cat_vision": true
+    },
+    "origins:elytrian": {
+      "enabled": true,
+      "origins:elytra": true,
+      "origins:launch_into_air": true,
+      "origins:aerial_combatant": true,
+      "origins:light_armor": true,
+      "origins:claustrophobia": true,
+      "origins:more_kinetic_damage": true
+    },
+    "origins:shulk": {
+      "enabled": true,
+      "origins:shulker_inventory": true,
+      "origins:natural_armor": true,
+      "origins:strong_arms": true,
+      "origins:strong_arms_break_speed": true,
+      "origins:no_shield": true,
+      "origins:more_exhaustion": true
+    },
+    "origins:merling": {
+      "enabled": true,
+      "origins:water_breathing": true,
+      "origins:water_vision": true,
+      "origins:aqua_affinity": true,
+      "origins:swim_speed": true,
+      "origins:like_water": true,
+      "origins:aquatic": true,
+      "origins:conduit_power_on_land": true,
+      "origins:air_from_potions": true
+    },
+    "origins:phantom": {
+      "enabled": true,
+      "origins:phantomize": true,
+      "origins:translucent": true,
+      "origins:phasing": true,
+      "origins:invisibility": true,
+      "origins:burn_in_daylight": true,
+      "origins:hunger_over_time": true,
+      "origins:fragile": true,
+      "origins:phantomize_overlay": true
+    },
+    "super:super": {
+      "enabled": true,
+      "super:blue": true,
+      "super:brokenwings": true,
+      "icarus:wings": true,
+      "super:numbness": true,
+      "super:pain": true,
+      "super:hearts": true,
+      "super:multidimensional": true,
+      "super:unstability": true,
+      "super:unstable": true,
+      "super:super/blue": true,
+      "super:super/brokenwings": true,
+      "super:super/pain": true,
+      "super:super/hearts": true,
+      "super:super/multidimensional": true
+    },
+    "packnamehere:originnamehere": {
+      "enabled": true,
+      "packnamehere:powernamehere": true
+    },
+    "icarus:icarae": {
+      "enabled": true,
+      "icarus:wings": true,
+      "origins:aerial_combatant": true,
+      "icarus:hollow_bones": true,
+      "origins:no_shield": true,
+      "origins:carnivore": true
+    },
+    "super:crossy": {
+      "enabled": true,
+      "origins:carnivore": true,
+      "super:claws": true,
+      "super:nature": true,
+      "super:wither": true,
+      "super:fireproof": true,
+      "super:blaze": true,
+      "super:firewings": true
+    },
+    "super:bee": {
+      "enabled": true,
+      "super:steelarms": true,
+      "super:sturdybody": true,
+      "super:golem": true,
+      "super:ironfeet": true,
+      "super:hearty": true,
+      "super:netherite": true,
+      "super:netheriteupgrade": true
+    },
+    "super:ender": {
+      "enabled": true,
+      "super:blue": true,
+      "super:brokenwings": true,
+      "super:pain": true,
+      "super:numbness": true,
+      "super:hearts": true,
+      "super:multidimensional": true,
+      "super:unstability": true,
+      "super:unstable": true,
+      "super:fractal_wings": true,
+      "super:scythe": true,
+      "super:combat_toggle": true,
+      "super:enderpearl": true,
+      "super:cant_see_pearl": true,
+      "super:gifted_eyes": true
+    },
+    "super:test": {
+      "enabled": true,
+      "super:super/test": true,
+      "super:test": true,
+      "super:enderstestin": true
+    },
+    "super:rose": {
+      "enabled": true,
+      "super:rose/detached": true,
+      "super:rose/void_gap": true,
+      "super:rose/combat_adapt": true,
+      "super:rose/trained_guard": true,
+      "super:rose/nauseating_fruit": true,
+      "super:rose/void_corruption": true
+    },
+    "super:astro": {
+      "enabled": true,
+      "super:astro/fastforward": true,
+      "super:astro/waypoint": true,
+      "super:astro/rebound": true,
+      "super:astro/brittle_bones": true,
+      "super:astro/insomnia": true
+    }
+  }
+}

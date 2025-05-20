@@ -1,0 +1,18 @@
+{
+	"name": "Wings of the dead",
+	"description": "You can fly using wings that you gained from your short time in the afterlife.",
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:execute_command",
+		"command": "/trinkets set chest cape 0 icarus:orange_feathered_wings{Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}]}"
+	},
+	"execute_chosen_when_orb": true,
+	"entity_action_respawned": {
+		"type": "origins:execute_command",
+		"command": "/trinkets set chest cape 0 icarus:orange_feathered_wings{Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}]}"
+	},
+	"entity_action_lost":{
+		"type": "origins:execute_command",
+		"command": "/trinkets set chest cape 0 air"
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"name": "/set home",
+	"description": "AGAIN -bucky barnes",
+
+	"type": "origins:multiple",
+
+
+	"set_waypoint": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "/kill @e[type=minecraft:falling_block,tag=astrowaypoint]"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 5,
+					"action": {
+						"type": "origins:execute_command",
+						"command": "/summon falling_block ~ ~-1000 ~ {BlockState:{Name:barrier},Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Time:-2147483648,Tags:[astrowaypoint]}"
+					}
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.respawn_anchor.set_spawn",
+					"volume": 1.5,
+					"pitch": 2
+				}
+			]
+		},
+		"cooldown": 12000,
+		"key": {
+			"key": "key.origins.secondary_active"
+		},
+		"condition": {
+			"type": "origins:sneaking"
+		},
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 9,
+			"inverted": "true"
+		}
+	},
+	"teleport": {
+		"type": "origins:active_self",
+		"entity_action":{
+		"type": "origins:delay",
+		"ticks": 5,
+		"action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:exhaust",
+					"amount": 2
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.enderman.teleport",
+					"volume": 1.5,
+					"pitch": 2
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/execute positioned as @e[type=minecraft:falling_block,limit=1,tag=astrowaypoint] positioned ~ ~1000 ~ run tp @s ~ ~ ~"
+				}
+			]
+		}
+	},
+		"cooldown": 20,
+		"key": {
+			"key": "key.origins.secondary_active"
+		},
+		"condition": {
+			"type": "origins:sneaking",
+			"inverted": "true"
+		},
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+			"bar_index": 1,
+			"inverted": "true"
+		}
+	}
+}

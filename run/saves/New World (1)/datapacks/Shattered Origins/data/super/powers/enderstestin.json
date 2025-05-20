@@ -1,0 +1,24 @@
+{
+	"name": "Jesus",
+	"description": "You are literally jesus",
+	"type": "origins:walk_on_fluid",
+	"fluid": "minecraft:water",
+	"condition": {
+		"type": "origins:fluid_height",
+		"fluid": "minecraft:water",
+		"comparison": "<=",
+		"compare_to": 0.4
+	}
+}
+
+{
+	"name" : "Insomnia",
+	"description" : "Cant sleep hungry",
+	"type": "origins:prevent_sleep",
+	"message": "Nuh uh.",
+	"condition": {
+		"type": "origins:food_level",
+		"comparison": "<=",
+		"compare_to": 5
+	}}
+}

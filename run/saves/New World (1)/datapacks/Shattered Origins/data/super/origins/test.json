@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"super:test",
+		"super:enderstestin"
+	],
+	"icon": "minecraft:cornflower",
+	"order": 10,
+	"impact": 3,
+	"name": "testerling.",
+	"description": "Get tested Boiiiii."
+}

@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"super:rose/detached",
+		"super:rose/void_gap",
+		"super:rose/combat_adapt",
+		"super:rose/trained_guard",
+		"super:rose/nauseating_fruit",
+		"super:rose/void_corruption"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 12,
+	"impact": 2,
+	"name": "Void Distortion",
+	"description": "You were supposed to have died many years ago, longer ago than you can even remember. Trapped in a void like space your body has changed for better or for worse."
+}

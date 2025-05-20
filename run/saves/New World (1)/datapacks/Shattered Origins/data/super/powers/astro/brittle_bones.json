@@ -1,0 +1,58 @@
+{
+	"name": "Brittle bones",
+	"description": "not so crafty nor tricky.",
+
+
+
+	"type": "origins:multiple",
+	"shield": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "origins:shields"
+			}
+		}
+	},
+	"food": {
+		"type": "origins:modify_exhaustion",
+		"modifier": {
+			"name": "Extra exhaustion from large appetite",
+			"value": 0.6,
+			"operation": "multiply_base"
+		}
+	},
+	"sleep": {
+		"type": "origins:action_on_wake_up",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:trigger_cooldown",
+					"power": "super:astro/waypoint"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "super:astro/rebound_bar",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:modify_stat",
+					"stat": {
+						"type": "minecraft:custom",
+						"id": "minecraft:time_since_rest"
+					},
+					"modifier": {
+						"operation": "add_base_early",
+						"value": 360000
+					}
+				}
+			]
+		},
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_bed"
+		}
+	}
+}

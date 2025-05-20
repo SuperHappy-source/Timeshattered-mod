@@ -1,0 +1,21 @@
+{
+	"name": "Blazeing Breath",
+	"description": "You can breath fire.",
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:small_fireball",
+	"cooldown": 3,
+	"count": 3,
+	"divergence": 2,
+	"speed": 3,
+	"sound": "minecraft:entity.blaze.shoot",
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 15
+	},
+	"tag": "{pickup:0b}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	}
+}

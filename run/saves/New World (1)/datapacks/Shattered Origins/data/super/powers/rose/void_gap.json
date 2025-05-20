@@ -1,0 +1,264 @@
+{
+	"name": "Void gap",
+	"description": "Gravity doesn't seem to affect you normally",
+	"type": "origins:multiple",
+	"bar": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 60,
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index": 9,
+			"should_render": true
+
+		}
+	},
+	"bar_fill": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "super:rose/void_gap_bar",
+			"change": 1
+		}
+	},
+	"bar_drain": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:and",
+			"inverted": "true",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "super:rose/void_gap_bar",
+			"change": -5
+		}
+	},
+	"jump-7": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.7
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 60
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+		}
+	},
+	"jump-6": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": ">=",
+					"compare_to": 45
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": "<",
+					"compare_to": 60
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+		}
+	},
+	"jump-5": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.5
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": ">=",
+					"compare_to": 30
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": "<",
+					"compare_to": 45
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+		}
+	},
+	"jump-4": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.4
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": ">=",
+					"compare_to": 15
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": "<",
+					"compare_to": 30
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+		}
+	},
+	"jump-3": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.3
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": ">=",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:rose/void_gap_bar",
+					"comparison": "<",
+					"compare_to": 15
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+		}
+	},
+	"pling-7": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 60
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.experience_orb.pickup",
+			"pitch": "1"
+		}
+	},
+	"pling-6": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 45
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.experience_orb.pickup",
+			"pitch": "1.2"
+		}
+	},
+	"pling-5": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 30
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.experience_orb.pickup",
+			"pitch": "1.4"
+		}
+	},
+	"pling-4": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 15
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.experience_orb.pickup",
+			"pitch": "1.6"
+		}
+	},
+	"pling-3": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/void_gap_bar",
+			"comparison": "==",
+			"compare_to": 5
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.experience_orb.pickup",
+			"pitch": "1.8"
+		}
+	}
+}
+
+
+

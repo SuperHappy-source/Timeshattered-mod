@@ -1,0 +1,116 @@
+{
+  "name": "Fractal form.",
+  "description": "After the fall your stuck in this imperfect non-euclidian form.",
+  "type": "origins:multiple",
+  "unstable_25": {
+    "type": "origins:damage_over_time",
+    "interval": 80,
+    "onset_delay": 4,
+    "damage": 1,
+    "damage_source": {
+      "name": "unstability",
+      "bypasses_armor": true,
+      "unblockable": true
+    },
+    "protection_effectiveness": 0,
+    "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "super:super/multidimensional_bar",
+        "comparison": ">=",
+        "compare_to": 25
+      },
+      {
+        "type": "origins:status_effect",
+        "effect": "pickyourpoison:numbness",
+        "inverted": true
+      },
+      {
+        "type": "origins:resource",
+        "resource": "super:super/multidimensional_bar",
+        "comparison": "<",
+        "compare_to": 50
+      }
+    ]
+      }
+  },
+  "unstable_50": {
+    "type": "origins:damage_over_time",
+    "interval": 60,
+    "onset_delay": 4,
+    "damage": 3,
+    "damage_source": {
+      "name": "unstability",
+      "bypasses_armor": true,
+      "unblockable": true
+    },
+    "protection_effectiveness": 0,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "super:super/multidimensional_bar",
+          "comparison": ">=",
+          "compare_to": 50
+        },
+        {
+          "type": "origins:status_effect",
+          "effect": "pickyourpoison:numbness",
+          "inverted": true
+        },
+        {
+          "type": "origins:resource",
+          "resource": "super:super/multidimensional_bar",
+          "comparison": "<",
+          "compare_to": 75
+        }
+      ]
+    }
+  },
+  "unstable_75": {
+    "type": "origins:damage_over_time",
+    "interval": 40,
+    "onset_delay": 4,
+    "damage": 5,
+    "damage_source": {
+      "name": "unstability",
+      "bypasses_armor": true,
+      "unblockable": true
+    },
+    "protection_effectiveness": 0,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "super:super/multidimensional_bar",
+          "comparison": ">=",
+          "compare_to": 75
+        },
+        {
+          "type": "origins:status_effect",
+          "effect": "pickyourpoison:numbness",
+          "inverted": true
+        },
+        {
+          "type": "origins:resource",
+          "resource": "super:super/multidimensional_bar",
+          "comparison": "<",
+          "compare_to": 100
+        }
+      ]
+    }
+  },
+  "shake": {
+    "type": "origins:shaking",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "super:super/multidimensional_bar",
+      "comparison": "<=",
+      "compare_to": 50
+    }
+  }
+}

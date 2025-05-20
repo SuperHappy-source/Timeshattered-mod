@@ -1,0 +1,22 @@
+{
+	"name": "Detached",
+	"description": "This isn't your Universe",
+	"type": "origins:multiple",
+	"sneaking": {
+		"type": "origins:modify_falling",
+		"velocity": 0.03,
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:sneaking"
+		}
+	},
+	"nsneaking": {
+		"type": "origins:modify_falling",
+		"velocity": 0.01,
+		"take_fall_damage": false,
+		"condition": {
+			"inverted": "true",
+			"type": "origins:sneaking"
+		}
+	}
+}

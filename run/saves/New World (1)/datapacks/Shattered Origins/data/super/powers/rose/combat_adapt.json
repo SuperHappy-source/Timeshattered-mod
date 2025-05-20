@@ -1,0 +1,68 @@
+{
+	"name": "Combat Adapt",
+	"description": "A Grave Crime Brought you here. Use your Strength",
+	"type": "origins:multiple",
+	"atk_speed": {
+		"type": "origins:attribute",
+		"modifier": {
+			"name": "speed",
+			"attribute": "minecraft:generic.attack_speed",
+			"value": 0.6,
+			"operation": "addition"
+		}
+	},
+	"crit_random": {
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:actor_action",
+			"action": {
+				"type": "origins:choice",
+				"actions": [
+					{
+						"weight": 1,
+						"element": {
+							"type": "origins:change_resource",
+							"resource": "super:rose/combat_adapt_crit_true",
+							"change": 1,
+							"operation": "set"
+						}
+					},
+					{
+						"weight": 9,
+						"element": {
+							"type": "origins:change_resource",
+							"resource": "super:rose/combat_adapt_crit_true",
+							"change": 0,
+							"operation": "set"
+						}
+					}
+				]
+			}
+		}
+	},
+	"crit_true": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"crit_dmg": {
+		"type": "origins:modify_attribute",
+		"attribute": "minecraft:generic.attack_damage",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:rose/combat_adapt_crit_true",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"modifier": {
+			"operation": "multiply_total_multiplicative",
+			"value": 1
+		}
+	}
+}
+
+
+

@@ -1,0 +1,55 @@
+{
+	"name": "Blink",
+	"description": "You move through higher dimensions in such a way you can appear in any place you desire.",
+	"type": "origins:multiple",
+	"teleport": {
+		"type": "origins:active_self",
+		"key": "key.origins.secondary_active",
+		"cooldown": 40,
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 5,
+			"should render": true
+		},
+		"entity_action": {
+			"type": "origins:delay",
+			"ticks": 2,
+			"action": {
+				"type": "origins:raycast",
+				"distance": 80,
+				"block": true,
+				"entity": true,
+				"shape_type": "visual",
+				"fluid_handling": "any",
+				"bientity_action": {
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:execute_command",
+						"command": "say I've been hit!"
+					}
+				},
+				"hit_action": {
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.enderman.teleport",
+					"volume": 2,
+					"pitch": 2
+				},
+				"miss_action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:play_sound",
+							"sound": "minecraft:entity.allay.hurt",
+							"volume": 2,
+							"pitch": 0.4
+						}
+					]
+				},
+				"command_at_hit": "teleport @s ~ ~ ~",
+				"command_along_ray": "particle minecraft:soul_fire_flame ~ ~ ~ 0.125 0.125 0.125 0.025 30 normal @p",
+				"command_step": 0.5,
+				"command_along_ray_only_on_hit": true
+			}
+		}
+	}
+}

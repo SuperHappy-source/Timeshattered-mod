@@ -1,0 +1,331 @@
+{
+	"name": "Configurable body.",
+	"description": "You can replace parts of yourself with netherite scrap or netherite ingots.",
+	"type": "origins:multiple",
+
+	"bar": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 100,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+			"bar_index": 14
+		}
+	},
+
+	"consume_scrap": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume",
+						"amount": 1
+					}
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "super:netherite_bar",
+					"operation": "add",
+					"change": 1
+				}
+			]
+		},
+		"cooldown": 2,
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:netherite_scrap"
+						}
+					}
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:netherite_bar",
+					"comparison": "<",
+					"compare_to": 100
+				}
+			]
+		}
+	},
+
+	"consume_ingot": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume",
+						"amount": 1
+					}
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "super:netherite_bar",
+					"operation": "add",
+					"change": 4
+				}
+			]
+		},
+		"cooldown": 2,
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:netherite_ingot"
+						}
+					}
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:netherite_bar",
+					"comparison": "<",
+					"compare_to": 100
+				}
+			]
+		}
+	},
+
+	"damage": {
+		"type": "origins:self_action_when_hit",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "super:netherite_bar",
+			"change": -3,
+			"operation": "add"
+		}
+	},
+
+	"drain": {
+		"type": "origins:action_over_time",
+		"interval": 80,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "super:netherite_bar",
+			"change": -1,
+			"operation": "add"
+		}
+	},
+
+	"buffed_fist": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 7,
+			"name": "Increased sprinting speed"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:empty"
+					}
+				},
+				{
+					"type": "origins:resource",
+					"resource": "super:netherite_bar",
+					"comparison": ">=",
+					"compare_to": 10
+				}
+			]
+		}
+	},
+
+	"buffed_fire": {
+		"type": "origins:fire_immunity",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 10
+		}
+	},
+
+	"buffed_armor": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "addition",
+			"value": 6,
+			"name": "Increased sprinting speed"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 40
+		}
+	},
+
+	"buffed_lava": {
+		"type": "origins:modify_lava_speed",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.25,
+			"condition": {
+				"type": "origins:resource",
+				"resource": "super:netherite_bar",
+				"comparison": ">=",
+				"compare_to": 40
+			}
+		}
+	},
+
+	"lave": {
+		"type": "origins:lava_vision",
+		"s": 0,
+		"v": 216,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 40
+		}
+	},
+
+	"fire": {
+		"type": "origins:action_on_hit",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:netherite_bar",
+					"comparison": ">=",
+					"compare_to": 50
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:empty"
+					}
+				}
+			]
+		},
+		"bientity_action": {
+			"type": "origins:target_action",
+			"action": {
+				"type": "origins:set_on_fire",
+				"duration": 5
+			}
+		}
+	},
+
+	"buffed_hearts": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"operation": "addition",
+			"value": 16,
+			"name": "Increased sprinting speed"
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 50
+		}
+	},
+
+	"tier1": {
+		"type": "origins:model_color",
+		"red": 0.43137254902,
+		"green": 0.36078431372,
+		"blue": 0.36078431372,
+		"alpha": 1,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 10
+		}
+	},
+
+	"tier2": {
+		"type": "origins:particle",
+		"particle": "minecraft:soul_fire_flame",
+		"frequency": 10,
+		"spread": {
+			"x": 0.5,
+			"y": 0.5,
+			"z": 0.5
+		},
+		"count": 4,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 40
+		}
+	},
+
+	"tier3": {
+		"type": "origins:self_glow",
+		"use_teams": false,
+		"red": 0.20392156862,
+		"green": 0.1725490196,
+		"blue": 0.1725490196,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:netherite_bar",
+			"comparison": ">=",
+			"compare_to": 50
+		}
+	},
+
+	"death": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:change_resource",
+			"resource": "super:netherite_bar",
+			"change": -100,
+			"operation": "add"
+		}
+	}
+}
+
+
+
+
+
+

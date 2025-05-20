@@ -1,0 +1,30 @@
+{
+	"name": "Hunters Mark.",
+	"description": "You start with your scythe.",
+	"type": "origins:multiple",
+	"scythe_give": {
+		"type": "origins:action_on_callback",
+		"execute_chosen_when_orb": true,
+		"entity_action_chosen": {
+			"type": "origins:give",
+			"stack": {
+				"item": "timeshattered:ender_scythe",
+				"amount": 1
+			}
+		},
+		"entity_action_lost": {
+			"type": "origins:replace_inventory",
+			"inventory_type": "inventory",
+			"stack": {
+				"item": "minecraft:air"
+			},
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "timeshattered:ender_scythe"
+				}
+			}
+		}
+	}
+}
+

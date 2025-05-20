@@ -1,0 +1,67 @@
+{
+	"name": "Heavy Body",
+	"description": "Your body is made out of hard materials. because of this you fall faster and sink in water.",
+	"type": "origins:multiple",
+
+	"outside_of_water": {
+		"type": "origins:modify_falling",
+		"velocity": 0.15,
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+
+	"inside_of_water": {
+			"type": "origins:modify_falling",
+			"velocity": 0.015,
+			"take_fall_damage": false,
+			"condition": {
+				"type": "origins:fluid_height",
+				"fluid": "minecraft:water",
+				"inverted": true,
+				"comparison": "==",
+				"compare_to": 0
+			}
+		},
+
+	"breath_air": {
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"duration": 99999,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		}
+	},
+	"execute_chosen_when_orb": true,
+	"entity_action_respawned": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"duration": 999999,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		}
+	}
+},
+
+	"clear": {
+"type": "origins:action_on_callback",
+"entity_action_lost": {
+"type": "origins:clear_effect",
+"effect": "minecraft:water_breathing"
+}
+},
+
+	"water": {
+		"type": "origins:ignore_water"
+	}
+}

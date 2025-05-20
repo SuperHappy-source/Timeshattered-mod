@@ -1,0 +1,131 @@
+{
+	"name": "Nauseating Fruit",
+	"description": "Am I supposed to eat this?",
+	"type": "origins:multiple",
+	"unedible": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:chorus_fruit"
+			}
+		}
+	},
+	"main_chorus": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 100,
+		"tick_rate": 1,
+		"effects": [
+			{
+				"effect": "minecraft:hunger",
+				"is_ambient": false,
+				"show_particles": true,
+				"show_icon": true
+			},
+			{
+				"effect": "minecraft:nausea",
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": true
+			}
+		],
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:chorus_fruit"
+				}
+			}
+		}
+	},
+	"player_chorus": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:area_of_effect",
+			"radius": 3,
+			"bientity_action": {
+				"type": "origins:actor_action",
+				"action": {
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:hunger",
+							"duration": 40,
+							"is_ambient": false,
+							"show_particles": true,
+							"show_icon": true
+						},
+						{
+							"effect": "minecraft:nausea",
+							"duration": 80,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			},
+			"bientity_condition": {
+				"type": "origins:target_condition",
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:chorus_fruit"
+						}
+					}
+				}
+			}
+		}
+	},
+	"block_chorus": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effects": [
+				{
+					"effect": "minecraft:nausea",
+					"duration": 80,
+					"is_ambient": false,
+					"show_particles": false,
+					"show_icon": false
+				},
+				{
+					"effect": "minecraft:hunger",
+					"duration": 80,
+					"is_ambient": false,
+					"show_particles": true,
+					"show_icon": true
+				}
+			]
+		},
+		"interval": 1,
+		"condition": {
+			"type": "origins:block_in_radius",
+			"block_condition": {
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:block",
+						"block": "minecraft:chorus_plant"
+					},
+					{
+						"type": "origins:block",
+						"block": "minecraft:chorus_flower"
+					}
+				]
+			},
+			"radius": 5,
+			"shape": "sphere",
+			"comparison": ">=",
+			"compare_to": 1
+		}
+	}
+}

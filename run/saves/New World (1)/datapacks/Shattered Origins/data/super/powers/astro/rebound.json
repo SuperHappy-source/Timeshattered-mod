@@ -1,0 +1,168 @@
+{
+	"name": "Rebound",
+	"description": "Blood is fuel.",
+
+
+	"type": "origins:multiple",
+	"bar": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 100,
+		"hud_render": {
+			"should_render": true
+		}
+	},
+	"bar_gain": {
+		"type": "origins:action_when_damage_taken",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "super:astro/rebound_bar",
+			"change": 5
+		},
+		"cooldown": 1
+	},
+	"totem": {
+		"type": "origins:prevent_death",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "super:astro/rebound_bar",
+			"comparison": "==",
+			"compare_to": 100
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:astro/rebound_bar",
+					"comparison": "==",
+					"compare_to": 100
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "super:astro/rebound_bar",
+					"change": 0,
+					"operation": "set"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:regeneration",
+							"amplifier": 1,
+							"duration": 200
+						},
+						{
+							"effect": "minecraft:strength",
+							"amplifier": 1,
+							"duration": 1200
+						}
+					]
+				}
+			]
+		}
+	},
+	"fast_heal": {
+		"type": "origins:action_over_time",
+		"interval": 7,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:astro/rebound_bar",
+					"comparison": ">=",
+					"compare_to": 50
+				},
+				{
+					"type": "origins:power_active",
+					"inverted": "true",
+					"power": "super:astro/fastforward_time_trigger"
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:area_of_effect",
+			"radius": 5,
+			"bientity_action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:spawn_particles",
+							"particle": {
+								"type": "minecraft:block",
+								"params": "minecraft:redstone_block"
+							},
+							"count": 16,
+							"speed": 0.2,
+							"force": false,
+							"offset_y": -0.125,
+							"spread": {
+								"x": 0.125,
+								"y": 0.0,
+								"z": 0.125
+							}
+						},
+						{
+							"type": "origins:heal",
+							"amount": 1
+						}
+					]
+				}
+			}
+		}
+	},
+	"slow_bonk": {
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"y": 2,
+					"z": 2
+				},
+				{
+					"type": "origins:damage",
+					"amount": 10,
+					"source": {
+						"name": "player"
+					}
+				},
+				{
+					"type": "origins:actor_action",
+					"action": {
+					"type": "origins:change_resource",
+					"resource": "super:astro/rebound_bar",
+					"change": -25
+					}
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "super:astro/rebound_bar",
+					"comparison": ">=",
+					"compare_to": 50
+				},
+				{
+					"type": "origins:power_active",
+					"inverted": "false",
+					"power": "super:astro/fastforward_time_trigger"
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition":  {
+						"type": "origins:empty"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"super:super/blue",
+		"super:super/brokenwings",
+		"super:super/pain",
+		"super:super/hearts",
+		"super:super/multidimensional"
+	],
+	"icon": "minecraft:cornflower",
+	"order": 20,
+	"impact": 3,
+	"name": "Super.",
+	"description": "Servitude. Death. Anguish."
+}

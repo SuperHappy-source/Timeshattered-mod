@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"super:fractal_wings",
+		"super:combat_toggle",
+		"super:scythe",
+		"super:enderpearl",
+		"super:gifted_eyes"
+	],
+	"icon": "timeshattered:ender_scythe",
+	"order": 5,
+	"impact": 2,
+	"name": "enor",
+	"description": "test"
+}

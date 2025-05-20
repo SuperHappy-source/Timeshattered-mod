@@ -1,0 +1,37 @@
+{
+	"name": "Heated flames",
+	"description": "You are immune to normal fire. However, soul fire and lava can still affect you.",
+
+
+	"type": "origins:multiple",
+	"fire": {
+		"type": "origins:fire_immunity",
+		"condition": {
+			"type": "origins:in_block_anywhere",
+			"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:fire"
+			}
+		}
+	},
+	"campfire": {
+		"type": "origins:fire_immunity",
+		"condition": {
+			"type": "origins:in_block_anywhere",
+			"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:campfire"
+			}
+		}
+	},
+	"magma": {
+		"type": "origins:fire_immunity",
+		"condition": {
+			"type": "origins:on_block",
+			"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:magma_block"
+			}
+		}
+	}
+}

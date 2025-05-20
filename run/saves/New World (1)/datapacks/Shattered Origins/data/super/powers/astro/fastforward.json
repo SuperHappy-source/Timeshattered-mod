@@ -1,0 +1,106 @@
+{
+	"name": "FastForward",
+	"description": "cant think of anything come back later -astro",
+
+
+
+	"type": "origins:multiple",
+	"time_trigger": {
+		"type": "origins:toggle",
+		"active_by_default": "false",
+		"key": "key.origins.primary_active"
+	},
+	"fast_effect": {
+		"type": "origins:modify_velocity",
+		"modifier": {
+			"value": 1,
+			"operation": "multiply_total"
+		},
+		"axes": [
+			"x",
+			"y",
+			"z"
+		],
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "true",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"fast_break": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "true",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"fast_jump": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": -0.25
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "true",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"slow_effect": {
+		"type": "origins:modify_velocity",
+		"modifier": {
+			"value": -0.5,
+			"operation": "multiply_total"
+		},
+		"axes": [
+			"x",
+			"y",
+			"z"
+		],
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "false",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"slow_break": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": -0.5
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "false",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"slow_jump": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "false",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	},
+	"slow_fall": {
+		"type": "origins:modify_falling",
+		"velocity": 0.08,
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:power_active",
+			"inverted": "false",
+			"power": "super:astro/fastforward_time_trigger"
+		}
+	}
+}
+

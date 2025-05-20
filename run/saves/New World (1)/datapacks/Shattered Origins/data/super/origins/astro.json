@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"super:astro/fastforward",
+		"super:astro/waypoint",
+		"super:astro/rebound",
+		"super:astro/brittle_bones",
+		"super:astro/insomnia"
+	],
+	"icon": "minecraft:clock",
+	"order": 10,
+	"impact": 2,
+	"name": "Astral Shard: Time",
+	"description": "A Multipurpose Glove that aids the user with their trivial activities… with added negatives"
+}
