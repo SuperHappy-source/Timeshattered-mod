@@ -4324,3 +4324,184 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown or incomplete co
 [22:18:03] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
 [22:18:03] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
 [22:18:03] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:damage_condition
+[22:24:08] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[22:24:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:overworld
+[22:24:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:the_end
+[22:24:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:the_nether
+[22:24:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/shattered_dimensions:the_black_sea
+[22:24:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/shattered_dimensions:dream_pocket
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:modifier_operation
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:fluid_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:block_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:item_action
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:bientity_action
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:power_factory
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:entity_action
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:entity_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:block_action
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:biome_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:item_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:bientity_condition
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[22:24:08] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:damage_condition
+[22:24:09] [Server thread/INFO] (net.minecraft.server.network.ServerPlayNetworkHandler) Super_Happy lost connection: Disconnected
+[22:24:09] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Super_Happy left the game
+[22:24:09] [Server thread/INFO] (net.minecraft.server.network.ServerPlayNetworkHandler) Stopping singleplayer server as player logged out
+[22:24:09] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Stopping server
+[22:24:09] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving players
+[22:24:09] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving worlds
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:overworld
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:the_end
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/minecraft:the_nether
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/shattered_dimensions:the_black_sea
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[testing]'/shattered_dimensions:dream_pocket
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:modifier_operation
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:fluid_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:block_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:item_action
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:bientity_action
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:power_factory
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:entity_action
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:entity_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:block_action
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:biome_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:item_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:bientity_condition
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[22:24:10] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: apoli:damage_condition
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (the_black_sea): All chunks are saved
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (dream_pocket): All chunks are saved
+[22:24:10] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:24:10] [Render thread/INFO] (timeshattered) This line is printed by an example mod mixin!
+[22:24:10] [Render thread/INFO] (net.minecraft.client.MinecraftClient) Stopping!
