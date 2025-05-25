@@ -1,0 +1,131 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:infested_stone"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        [
+          {
+            "tag": "minecraft:soul_fire_base_blocks"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+            "amount": 2025,
+            "fluid": "create:potion",
+            "nbt": {
+              "Bottle": "REGULAR",
+              "Potion": "minecraft:slow_falling"
+            }
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+            "amount": 2000,
+            "fluid": "milk:still_milk"
+        }
+
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        [
+          {
+            "item": "minecraft:ender_eye"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:cobblestone"
+  }
+}

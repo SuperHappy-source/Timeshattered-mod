@@ -1,0 +1,100 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:end_stone",
+      "recipe": "timeshattered:end_stone"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:end_stone",
+    "item:minecraft:infested_stone",
+    {
+      "type": "fluid",
+      "id": "milk:still_milk",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:awkward\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:slow_falling\"}",
+      "amount": 2025
+    },
+    "item:minecraft:gunpowder",
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 27000
+    },
+    "item:create:bar_of_chocolate",
+    "item:create:chocolate_bucket",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:long_slow_falling\"}",
+      "amount": 81000
+    },
+    "item:minecraft:potion{Potion:\"minecraft:slow_falling\"}",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"SPLASH\",Potion:\"minecraft:water\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"LINGERING\",Potion:\"minecraft:water\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"LINGERING\",Potion:\"minecraft:awkward\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"SPLASH\",Potion:\"minecraft:awkward\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"SPLASH\",Potion:\"minecraft:leaping\"}",
+      "amount": 81000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{Bottle:\"SPLASH\",Potion:\"minecraft:slowness\"}",
+      "amount": 27000
+    },
+    "item:minecraft:splash_potion{Potion:\"minecraft:slowness\"}",
+    "#item:minecraft:soul_fire_base_blocks",
+    "item:minecraft:soul_sand",
+    "item:minecraft:popped_chorus_fruit",
+    "item:minecraft:chorus_fruit",
+    "item:minecraft:chorus_flower",
+    "item:create:precision_mechanism"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

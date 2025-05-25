@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:sweet_berries"
+    },
+    "O": {
+      "item": "minecraft:ender_eye"
+    },
+    "S": {
+      "item": "minecraft:white_dye"
+    },
+    "H": {
+      "item": "minecraft:allium"
+    }
+  },
+  "pattern": [
+    " OH",
+    "GSO",
+    "GG "
+  ],
+  "result": {
+    "item": "minecraft:chorus_flower"
+  }
+}
