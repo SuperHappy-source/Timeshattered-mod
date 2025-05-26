@@ -40,11 +40,14 @@ public class ModItems {
             new SwordItem(ModToolMaterial.FRACTAL, 12, -3f, new FabricItemSettings().group(ModItemGroup.FRACTAL)));
 
 
+    //enders scythe.
     public static final Item ENDER_SCYTHE = RegisterItem("ender_scythe",
             new SwordItem(ModToolMaterial.FRACTAL, 12, -3f,
                     new FabricItemSettings().group(ModItemGroup.FRACTAL)));
-    //enders scythe.
-
+    //nightmares scythe
+    public static final Item NIGHTMARE_SCYTHE = RegisterItem("nightmare_scythe",
+            new SwordItem(ModToolMaterial.FRACTAL, 6, -1f,
+                    new FabricItemSettings().group(ModItemGroup.FRACTAL)));
 
 
 

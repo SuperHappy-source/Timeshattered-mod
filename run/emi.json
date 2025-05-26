@@ -6,13 +6,14 @@
     }
   ],
   "lookup_history": [
-    "item:minecraft:end_stone",
-    "item:minecraft:infested_stone",
     {
       "type": "fluid",
       "id": "milk:still_milk",
-      "amount": 0
+      "amount": 81000
     },
+    "item:minecraft:milk_bucket",
+    "item:minecraft:end_stone",
+    "item:minecraft:infested_stone",
     {
       "type": "fluid",
       "id": "minecraft:water",
