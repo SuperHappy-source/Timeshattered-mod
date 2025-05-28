@@ -6,6 +6,12 @@
     }
   ],
   "lookup_history": [
+    "item:timeshattered:molten_iron_bucket",
+    {
+      "type": "fluid",
+      "id": "timeshattered:still_molten_iron",
+      "amount": 81000
+    },
     {
       "type": "fluid",
       "id": "milk:still_milk",
