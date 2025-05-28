@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values":
+  [
+    "timeshattered:still_molten_iron",
+    "timeshattered:flowing_molten_iron"
+  ]
+}

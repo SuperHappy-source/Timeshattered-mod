@@ -2,6 +2,8 @@ package net.Super.Timeshattered.fluid;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.FluidBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.Fluid;
@@ -9,6 +11,7 @@ import net.minecraft.fluid.FluidState;
 import net.minecraft.item.Item;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
+import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
@@ -22,6 +25,19 @@ public abstract class MoltenIron
     protected boolean isInfinite() {
         return false;
     } //can it be infinite like water?
+
+    protected void flow(WorldAccess world, BlockPos pos, BlockState state, Direction direction, FluidState fluidState) {
+            FluidState fluidState2 = world.getFluidState(pos);
+                if (fluidState2.isIn(FluidTags.WATER)) {
+                    if (state.getBlock() instanceof FluidBlock) {
+                        world.setBlockState(pos, Blocks.ANDESITE.getDefaultState(), Block.NOTIFY_ALL);
+                    }
+                    return;
+                }
+        super.flow(world, pos, state, direction, fluidState);
+    }
+    //an attempt to get it to interact. update. it does react. but it does so in a strange way.
+    //will try to figure something more out later.
 
     @Override
     protected void beforeBreakingBlock(WorldAccess world, BlockPos pos, BlockState state) {

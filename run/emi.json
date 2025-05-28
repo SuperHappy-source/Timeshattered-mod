@@ -6,25 +6,49 @@
     }
   ],
   "lookup_history": [
-    "item:timeshattered:molten_iron_bucket",
+    "item:minecraft:andesite",
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 81000
+    },
+    "item:minecraft:lava_bucket",
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 81000,
+      "remainder": {
+        "type": "fluid",
+        "id": "minecraft:water",
+        "amount": 81000
+      }
+    },
+    {
+      "type": "fluid",
+      "id": "create:honey",
+      "amount": 81000,
+      "remainder": {
+        "type": "fluid",
+        "id": "create:honey",
+        "amount": 81000
+      }
+    },
+    "item:create:limestone",
+    "item:minecraft:end_stone",
     {
       "type": "fluid",
       "id": "timeshattered:still_molten_iron",
-      "amount": 81000
+      "amount": 0
     },
+    "item:timeshattered:molten_iron_bucket",
+    "item:timeshattered:test_weapon{Damage:0}",
     {
       "type": "fluid",
       "id": "milk:still_milk",
       "amount": 81000
     },
     "item:minecraft:milk_bucket",
-    "item:minecraft:end_stone",
     "item:minecraft:infested_stone",
-    {
-      "type": "fluid",
-      "id": "minecraft:water",
-      "amount": 81000
-    },
     {
       "type": "fluid",
       "id": "create:potion",
