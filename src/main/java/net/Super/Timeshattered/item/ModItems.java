@@ -35,6 +35,12 @@ public class ModItems {
     public static final Item FRACTAL_MEMBRANE = RegisterItem("fractal_membrane",
             new Item(new FabricItemSettings().group(ModItemGroup.FRACTAL)));
 
+    public static final Item UNFIRED_PICKAXE_MOLD = RegisterItem("unfired_pickaxe_mold",
+            new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
+
+    public static final Item PICKAXE_MOLD = RegisterItem("pickaxe_mold",
+            new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
+
 
     public static final Item TEST_WEAPON = RegisterItem("test_weapon", //this is used for testing.
             new SwordItem(ModToolMaterial.FRACTAL, 12, -3f, new FabricItemSettings().group(ModItemGroup.FRACTAL)));

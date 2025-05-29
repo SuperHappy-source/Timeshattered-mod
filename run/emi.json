@@ -6,13 +6,31 @@
     }
   ],
   "lookup_history": [
-    "item:minecraft:andesite",
+    "item:timeshattered:unfired_pickaxe_mold",
+    "item:timeshattered:pickaxe_mold",
+    "item:create:encased_fan",
+    "item:minecraft:clay_ball",
+    "item:minecraft:iron_pickaxe{Damage:0}",
+    "item:minecraft:netherite_ingot",
+    "item:create:netherite_backtank",
+    "item:minecraft:netherite_chestplate{Damage:0}",
+    {
+      "type": "fluid",
+      "id": "timeshattered:still_molten_iron",
+      "amount": 0
+    },
+    "item:minecraft:raw_iron",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:bucket",
+    "item:minecraft:lava_bucket",
+    "item:create:blaze_cake",
+    "item:create:blaze_cake_base",
     {
       "type": "fluid",
       "id": "minecraft:lava",
       "amount": 81000
     },
-    "item:minecraft:lava_bucket",
+    "item:minecraft:andesite",
     {
       "type": "fluid",
       "id": "minecraft:water",
@@ -35,11 +53,6 @@
     },
     "item:create:limestone",
     "item:minecraft:end_stone",
-    {
-      "type": "fluid",
-      "id": "timeshattered:still_molten_iron",
-      "amount": 0
-    },
     "item:timeshattered:molten_iron_bucket",
     "item:timeshattered:test_weapon{Damage:0}",
     {
@@ -120,7 +133,9 @@
     "item:minecraft:chorus_flower",
     "item:create:precision_mechanism"
   ],
-  "craft_history": [],
+  "craft_history": [
+    "timeshattered:unfired_pickaxe_mold"
+  ],
   "recipe_defaults": {
     "added": [],
     "tags": {},

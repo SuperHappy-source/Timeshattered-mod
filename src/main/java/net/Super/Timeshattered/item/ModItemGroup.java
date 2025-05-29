@@ -12,4 +12,7 @@ public class ModItemGroup {
     , "fractal"), () -> new ItemStack(ModItems.FRACTAL_CORE));
     public static final ItemGroup NIGHTMARE = FabricItemGroupBuilder.build(new Identifier(TimeShattered.MOD_ID
     , "nightmare"), () -> new ItemStack(ModBlocks.BLOCK_OF_NIGHTMARE_MATTER));
+
+    public static final ItemGroup FORGING = FabricItemGroupBuilder.build(new Identifier(TimeShattered.MOD_ID,
+            "forging"), () -> new ItemStack(ModItems.UNFIRED_PICKAXE_MOLD));
 }

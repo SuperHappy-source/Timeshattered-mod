@@ -16,7 +16,9 @@ public class TimeshatteredClient implements ClientModInitializer {
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_IRON, ModFluids.FLOWING_MOLTEN_IRON,
                 new SimpleFluidRenderHandler(
                         new Identifier("timeshattered:fluid/molten_iron_still"),
-                        new Identifier("timeshattered:fluid/molten_iron_flow")
+                        new Identifier("timeshattered:fluid/molten_iron_flow"),
+                        0xfc0303
+
                 ));
 
 

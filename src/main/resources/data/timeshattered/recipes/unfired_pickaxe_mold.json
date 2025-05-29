@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:clay_ball"
+    },
+    "O": {
+      "item": "minecraft:clay"
+    }
+  },
+  "pattern": [
+    "GOG",
+    "GGG"
+  ],
+  "result": {
+    "item": "timeshattered:unfired_pickaxe_mold"
+  }
+}
