@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "timeshattered:iron_pickaxe_head"
+    }
+  },
+  "pattern": [
+    " O ",
+    " G "
+  ],
+  "result": {
+    "item": "minecraft:iron_pickaxe"
+  }
+}

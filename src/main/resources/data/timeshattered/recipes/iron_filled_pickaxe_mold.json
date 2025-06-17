@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "timeshattered:molten_iron_filled_pickaxe_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "timeshattered:iron_filled_pickaxe_mold"
+    }
+  ]
+}

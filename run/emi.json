@@ -6,23 +6,53 @@
     }
   ],
   "lookup_history": [
-    "item:timeshattered:unfired_pickaxe_mold",
-    "item:timeshattered:pickaxe_mold",
-    "item:create:encased_fan",
-    "item:minecraft:clay_ball",
+    {
+      "type": "item",
+      "id": "minecraft:clay_ball",
+      "amount": 37
+    },
     "item:minecraft:iron_pickaxe{Damage:0}",
-    "item:minecraft:netherite_ingot",
-    "item:create:netherite_backtank",
-    "item:minecraft:netherite_chestplate{Damage:0}",
+    "item:timeshattered:iron_pickaxe_head",
+    "item:timeshattered:iron_filled_pickaxe_mold",
+    "item:timeshattered:molten_iron_filled_pickaxe_mold",
     {
       "type": "fluid",
       "id": "timeshattered:still_molten_iron",
-      "amount": 0
+      "amount": 81000
     },
-    "item:minecraft:raw_iron",
-    "item:minecraft:iron_ingot",
-    "item:minecraft:bucket",
+    "item:timeshattered:molten_iron_bucket",
     "item:minecraft:lava_bucket",
+    {
+      "type": "item",
+      "id": "create:encased_fan",
+      "amount": 2
+    },
+    "item:minecraft:iron_ingot",
+    "item:minecraft:raw_iron",
+    "item:timeshattered:pickaxe_mold",
+    "item:minecraft:iron_block",
+    "item:minecraft:iron_bars",
+    "item:timeshattered:unfired_pickaxe_mold",
+    "item:minecraft:clay",
+    {
+      "type": "item",
+      "id": "minecraft:gunpowder",
+      "amount": 5
+    },
+    "item:minecraft:ender_eye",
+    "item:minecraft:end_stone",
+    "item:minecraft:infested_stone",
+    "item:minecraft:amethyst_shard",
+    "item:timeshattered:nightmare_scythe{Damage:0}",
+    "item:timeshattered:ender_scythe{Damage:0}",
+    "item:timeshattered:test_weapon{Damage:0}",
+    "item:minecraft:netherite_sword{Damage:0}",
+    "item:minecraft:diamond_sword{Damage:0}",
+    "item:create:small_veridium_brick_stairs",
+    "item:minecraft:netherite_ingot",
+    "item:create:netherite_backtank",
+    "item:minecraft:netherite_chestplate{Damage:0}",
+    "item:minecraft:bucket",
     "item:create:blaze_cake",
     "item:create:blaze_cake_base",
     {
@@ -52,16 +82,12 @@
       }
     },
     "item:create:limestone",
-    "item:minecraft:end_stone",
-    "item:timeshattered:molten_iron_bucket",
-    "item:timeshattered:test_weapon{Damage:0}",
     {
       "type": "fluid",
       "id": "milk:still_milk",
       "amount": 81000
     },
     "item:minecraft:milk_bucket",
-    "item:minecraft:infested_stone",
     {
       "type": "fluid",
       "id": "create:potion",
@@ -74,7 +100,6 @@
       "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:slow_falling\"}",
       "amount": 2025
     },
-    "item:minecraft:gunpowder",
     {
       "type": "fluid",
       "id": "create:chocolate",
@@ -134,10 +159,15 @@
     "item:create:precision_mechanism"
   ],
   "craft_history": [
-    "timeshattered:unfired_pickaxe_mold"
+    "timeshattered:iron_pickaxe_head_w_stick",
+    "timeshattered:unfired_pickaxe_mold",
+    "minecraft:clay"
   ],
   "recipe_defaults": {
-    "added": [],
+    "added": [
+      "timeshattered:raw_iron_to_molten_iron",
+      "timeshattered:iron_filled_pickaxe_mold"
+    ],
     "tags": {},
     "resolutions": {},
     "disabled": []

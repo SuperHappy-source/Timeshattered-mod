@@ -42,6 +42,15 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
 
 
+    public static final Item MOLTEN_IRON_FILLED_PICKAXE_MOLD = RegisterItem("molten_iron_filled_pickaxe_mold",
+            new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
+
+    public static final Item IRON_FILLED_PICKAXE_MOLD = RegisterItem("iron_filled_pickaxe_mold",
+            new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
+
+    public static final Item IRON_PICKAXE_HEAD = RegisterItem("iron_pickaxe_head",
+            new Item(new FabricItemSettings().group(ModItemGroup.FORGING)));
+
     public static final Item TEST_WEAPON = RegisterItem("test_weapon", //this is used for testing.
             new SwordItem(ModToolMaterial.FRACTAL, 12, -3f, new FabricItemSettings().group(ModItemGroup.FRACTAL)));
 

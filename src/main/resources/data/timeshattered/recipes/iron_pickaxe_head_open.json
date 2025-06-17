@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "timeshattered:iron_filled_pickaxe_mold"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "timeshattered:iron_pickaxe_head"
+    }
+  ]
+}

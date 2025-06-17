@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "timeshattered:pickaxe_mold"
+    },
+    {
+      "amount": 10150,
+      "fluid": "timeshattered:still_molten_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "timeshattered:molten_iron_filled_pickaxe_mold"
+    }
+  ]
+}

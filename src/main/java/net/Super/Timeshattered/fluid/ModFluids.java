@@ -32,7 +32,7 @@ public class ModFluids {
 
 
         MOLTEN_IRON_BUCKET = Registry.register(Registry.ITEM, new Identifier(TimeShattered.MOD_ID, "molten_iron_bucket"),
-                new BucketItem(ModFluids.STILL_MOLTEN_IRON, new FabricItemSettings().group(ModItemGroup.FRACTAL).recipeRemainder(Items.BUCKET).maxCount(1)));
+                new BucketItem(ModFluids.STILL_MOLTEN_IRON, new FabricItemSettings().group(ModItemGroup.FORGING).recipeRemainder(Items.BUCKET).maxCount(1)));
 
     }
 
