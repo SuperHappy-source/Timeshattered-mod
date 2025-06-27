@@ -15,4 +15,7 @@ public class ModItemGroup {
 
     public static final ItemGroup FORGING = FabricItemGroupBuilder.build(new Identifier(TimeShattered.MOD_ID,
             "forging"), () -> new ItemStack(ModItems.UNFIRED_PICKAXE_MOLD));
+
+    public static final  ItemGroup HUNT_DISCS = FabricItemGroupBuilder.build(new Identifier(TimeShattered.HUNT_MODID,
+           "discs"), () -> new ItemStack(ModDiscs.TEST_MUSIC_DISC));
 }

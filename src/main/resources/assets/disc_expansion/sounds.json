@@ -1,0 +1,623 @@
+{
+  "test_music_disc": {
+    "sounds": [
+      {
+        "name": "disc_expansion:test_music_disc",
+        "stream": true
+      }
+    ]
+  },
+
+  "music": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_-_careless_whisper_-_george_michael",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_-_hysteria_-_muse",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_airbag_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_being_human_-_single_version_-_emily_king",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_bodysnatchers_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_crazy_train_-_ozzy_osbourne",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_daisy_bell",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_death_by_glamour_-_toby_fox",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_disco_-_surf_curse",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_everlong_-_foo_fighters",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_fake_plastic_trees_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_fell_in_love_with_a_girl_-_the_white_stripes",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_from_the_start_-_laufey",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_ievan_polkka_-_remastered_2024_-_hatsune_miku",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_its_been_a_long_long_time_-_harry_james",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_jigsaw_falling_into_place_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_kaiju_beats_6_mon_ku_remix_-_yuta_bandoh",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_karma_police_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_master_of_puppets_remastered_-_metallica",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_remember_when_-_wallows",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_shoot_to_thrill_-_ac_dc",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_should_i_stay_or_should_i_go_-_remastered_-_the_clash",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_taking_whats_not_yours_-_tv_girl",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_talking_in_your_sleep_2023_remaster_-_the_romantics",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_teddy_picker_-_arctic_monkeys",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_the_gates_-_twin_suns",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_the_hermit_-_twin_suns",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_time_should_wait_-_live_at_sagehouse_-_twin_suns",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_tom_tom_-_holy_fuck",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_warudoizumain-chu_yin_mikumazikarumirai_2021_live-_feat._chu_yin_miku_-_ryo_supercell",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_wham_bam_shang-a-lang_-_silver",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:_wondering_-_twin_suns",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:-_yong_zhe__-_yoasobi",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:745_sticky_-_100_gecs",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:buddy_holly_-_weezer",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:creep_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:fell_in_love_with_a_girl_-_the_white_stripes",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:free_bird_-_lynyrd_skynyrd",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:huntmorse",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:just_-_radiohead",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:mcdonalds_in_the_pentagon",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:mgical_cure_love_shot_feat._hatsune_miku_-_sawtowne",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:miku_-_anamanaguchi",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:rick_astley_-_never_gonna_give_you_up_official_music_video",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:shape_of_you_-_ed_sheeran",
+        "stream": true
+      },
+      {
+        "name": "disc_expansion:spotidownloader.com_-_poker_face_-_lady_gaga",
+        "stream": true
+      }
+    ]
+  },
+  "just": {
+    "sounds": [
+      {
+        "name": "disc_expansion:just_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "carelesswhisper": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_-_careless_whisper_-_george_michael",
+        "stream": true
+      }
+    ]
+  },
+  "hysteria": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_-_hysteria_-_muse",
+        "stream": true
+      }
+    ]
+  },
+  "airbag": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_airbag_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "beinghuman": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_being_human_-_single_version_-_emily_king",
+        "stream": true
+      }
+    ]
+  },
+  "bodysnatchers": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_bodysnatchers_-_radiohead",
+        "stream": false
+      }
+    ]
+  },
+  "crazytrain": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_crazy_train_-_ozzy_osbourne",
+        "stream": true
+      }
+    ]
+  },
+  "daisybell": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_daisy_bell",
+        "stream": true
+      }
+    ]
+  },
+  "deathbyglamour": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_death_by_glamour_-_toby_fox",
+        "stream": true
+      }
+    ]
+  },
+  "disco": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_disco_-_surf_curse",
+        "stream": true
+      }
+    ]
+  },
+  "everlong": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_everlong_-_foo_fighters",
+        "stream": true
+      }
+    ]
+  },
+  "fakeplastictrees": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_fake_plastic_trees_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "fellinlovewithagirl": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_fell_in_love_with_a_girl_-_the_white_stripes",
+        "stream": true
+      }
+    ]
+  },
+  "fromthestart": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_from_the_start_-_laufey",
+        "stream": false
+      }
+    ]
+  },
+  "levanpolkka": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_ievan_polkka_-_remastered_2024_-_hatsune_miku",
+        "stream": true
+      }
+    ]
+  },
+  "itsbeenalonglongtime": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_its_been_a_long_long_time_-_harry_james",
+        "stream": true
+      }
+    ]
+  },
+  "jigsawfallingintoplace": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_jigsaw_falling_into_place_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "kaijuebeats6": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_kaiju_beats_6_mon_ku_remix_-_yuta_bandoh",
+        "stream": true
+      }
+    ]
+  },
+  "karmapolice": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_karma_police_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "masterofpuppets": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_master_of_puppets_remastered_-_metallica",
+        "stream": true
+      }
+    ]
+  },
+  "rememberwhen": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_remember_when_-_wallows",
+        "stream": true
+      }
+    ]
+  },
+  "blackholesun": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_black_hole_sun_-_soundgarden",
+        "stream": true
+      }
+    ]
+  },
+  "entersandman": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_enter_sandman_remastered_-_metallica",
+        "stream": true
+      }
+    ]
+  },
+  "feelit": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_feel_it_-_from_the_original_series_invincible_-_d4vd",
+        "stream": true
+      }
+    ]
+  },
+  "hottogo": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_hot_to_go_-_chappell_roan",
+        "stream": true
+      }
+    ]
+  },
+  "liveandlearn": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_live__learn_...main_theme_of_sonic_adventure_2_-_crush_40",
+        "stream": true
+      }
+    ]
+  },
+  "shoottothrill": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_shoot_to_thrill_-_ac_dc",
+        "stream": true
+      }
+    ]
+  },
+  "shouldistayorshouldigo": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_should_i_stay_or_should_i_go_-_remastered_-_the_clash",
+        "stream": true
+      }
+    ]
+  },
+  "somebodytoldme": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_somebody_told_me_-_the_killers",
+        "stream": true
+      }
+    ]
+  },
+  "takingwhatsnotyours": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_taking_whats_not_yours_-_tv_girl",
+        "stream": true
+      }
+    ]
+  },
+  "teddypicker": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_teddy_picker_-_arctic_monkeys",
+        "stream": true
+      }
+    ]
+  },
+  "thegates": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_the_gates_-_twin_suns",
+        "stream": true
+      }
+    ]
+  },
+  "thehermit": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_the_hermit_-_twin_suns",
+        "stream": true
+      }
+    ]
+  },
+  "timeshouldwait": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_time_should_wait_-_live_at_sagehouse_-_twin_suns",
+        "stream": true
+      }
+    ]
+  },
+  "tomtom": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_tom_tom_-_holy_fuck",
+        "stream": true
+      }
+    ]
+  },
+  "worldismine": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_warudoizumain-chu_yin_mikumazikarumirai_2021_live-_feat._chu_yin_miku_-_ryo_supercell",
+        "stream": true
+      }
+    ]
+  },
+  "whambamshangalang": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_wham_bam_shang-a-lang_-_silver",
+        "stream": true
+      }
+    ]
+  },
+  "talkinginyoursleep": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_talking_in_your_sleep_2023_remaster_-_the_romantics",
+        "stream": true
+      }
+    ]
+  },
+  "wondering": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_wondering_-_twin_suns",
+        "stream": true
+      }
+    ]
+  },
+  "brave": {
+    "sounds": [
+      {
+        "name": "disc_expansion:-_yong_zhe__-_yoasobi",
+        "stream": true
+      }
+    ]
+  },
+  "yourreallygotme": {
+    "sounds": [
+      {
+        "name": "disc_expansion:_you_really_got_me_mono_version_with_reverb_-_the_kinks",
+        "stream": true
+      }
+    ]
+  },
+  "sticky": {
+    "sounds": [
+      {
+        "name": "disc_expansion:745_sticky_-_100_gecs",
+        "stream": true
+      }
+    ]
+  },
+  "buddyholly": {
+    "sounds": [
+      {
+        "name": "disc_expansion:buddy_holly_-_weezer",
+        "stream": true
+      }
+    ]
+  },
+  "creep": {
+    "sounds": [
+      {
+        "name": "disc_expansion:creep_-_radiohead",
+        "stream": true
+      }
+    ]
+  },
+  "fellinlovewithagirlreal": {
+    "sounds": [
+      {
+        "name": "disc_expansion:fell_in_love_with_a_girl_-_the_white_stripes",
+        "stream": true
+      }
+    ]
+  },
+  "freebird": {
+    "sounds": [
+      {
+        "name": "disc_expansion:free_bird_-_lynyrd_skynyrd",
+        "stream": true
+      }
+    ]
+  },
+  "huntmorse": {
+    "sounds": [
+      {
+        "name": "disc_expansion:huntmorse",
+        "stream": true
+      }
+    ]
+  },
+  "mcdonaldsinthepentagon": {
+    "sounds": [
+      {
+        "name": "disc_expansion:mcdonalds_in_the_pentagon",
+        "stream": true
+      }
+    ]
+  },
+  "magicalcureloveshot": {
+    "sounds": [
+      {
+        "name": "disc_expansion:mgical_cure_love_shot_feat._hatsune_miku_-_sawtowne",
+        "stream": true
+      }
+    ]
+  },
+  "miku": {
+    "sounds": [
+      {
+        "name": "disc_expansion:miku_-_anamanaguchi",
+        "stream": true
+      }
+    ]
+  },
+  "rickroll": {
+    "sounds": [
+      {
+        "name": "disc_expansion:rick_astley_-_never_gonna_give_you_up_official_music_video",
+        "stream": true
+      }
+    ]
+  },
+  "shapeofyou": {
+    "sounds": [
+      {
+        "name": "disc_expansion:shape_of_you_-_ed_sheeran",
+        "stream": true
+      }
+    ]
+  },
+  "pokerface": {
+    "sounds": [
+      {
+        "name": "disc_expansion:spotidownloader.com_-_poker_face_-_lady_gaga",
+        "stream": true
+      }
+    ]
+  }
+}
